@@ -1,7 +1,7 @@
 {
   "name": "wtimer",
   "version": "0.1.0",
-  "description": "",
+  "description": "A simple stopwatch builded with html, css, javascript and electron",
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
