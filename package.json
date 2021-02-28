@@ -1,0 +1,36 @@
+{
+  "name": "wtimer",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager . --icon public/assets/img/logo.icns --overwrite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.3.0"
+  },
+  "build": {
+    "compression": "maximum",
+    "directories": {
+      "output": "build"
+    },
+    "win": {
+      "target": [
+        "NSIS",
+        "zip"
+      ]
+    },
+    "author": {
+      "name": "The Otterlord",
+      "email": "theotterlord@nowhere.void",
+      "url": "https://github.com/TheOtterlord"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/TheOtterlord/deckmaster"
+    }
+  }
+}
